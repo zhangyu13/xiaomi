@@ -2,7 +2,7 @@
 * @Author: lenovo
 * @Date:   2018-08-03 08:36:37
 * @Last Modified by:   lenovo
-* @Last Modified time: 2018-09-05 23:54:56
+* @Last Modified time: 2018-09-06 16:45:20
 */
 *{
 	margin: 0;
@@ -61,6 +61,9 @@ nav .container .right{
 nav .container a{
 	font-size: 12px;
 	color: #b0b0b0;
+}
+nav .container a:hover{
+	color: #fff;
 }
 nav .container span{
 	color: #424242;
@@ -171,6 +174,9 @@ nav .container .right .gw:hover{
 	float: left;
 	margin-right: 10px;
 }
+.sec .top>a:hover{
+	color: #ff6700;
+}
 .sec .top .text{
 	width: 296px;
 	height: 50px;
@@ -234,17 +240,30 @@ nav .container .right .gw:hover{
 	display: block;
 }
 .sec .ss .f1{
+	display: block;
+	height: 20px;
+	line-height: 20px;
 	color: #b0b0b0;
 	position: absolute;
     right: 120px;
-    top: 3px;
+    top: 42px;
     font-size: 12px;
-    margin-left: -177px;
+}
+.sec .ss .f1:hover{
+	background: #ff6700;
+	color: #fff;
+}
+.sec .ss .f2:hover{
+	background: #ff6700;
+	color: #fff;
 }
 .sec .ss .f2{
+	display: block;
+	height: 20px;
+	line-height: 20px;
 	position: absolute;
     right: 50px;
-    top: 3px;
+    top: 42px;
     color: #b0b0b0;
     font-size: 12px;
 }
@@ -487,7 +506,8 @@ nav .container .right .gw:hover{
 	margin-top: 20px;
 }
 .sg .top .left{
-	font-size: 26px;
+	font-size: 22px;
+	font-weight: 300;
 	line-height: 58px;
 	float: left;
 }
@@ -660,15 +680,16 @@ nav .container .right .gw:hover{
 .sj{
 	background: #f7f7f5;
 	padding-top: 22px;
-	padding-bottom: 40px;
+	padding-bottom: 20px;
 }
 .sj .top{
 	width: 100%;
 	height: 58px;
 }
 .sj .top .left{
-	font-size: 26px;
+	font-size: 22px;
 	line-height: 58px;
+	font-weight: 300;
 	float: left;	
 }
 .sj .top .right{
@@ -750,29 +771,24 @@ nav .container .right .gw:hover{
 }
 .jd{
 	background: #f7f7f5;
-	/* margin-top: 50px; */
-	padding-top: 22px;
-	padding-bottom: 40px;
+	/* padding-bottom: 40px; */
 }
 .jd .top{
 	width: 100%;
-	height: 60px;
-	/* background-color: black; */
+	height: 58px;
 }
 .jd .top .left{
 	width: 46px;
 	height: 100%;
-	/* background-color: red; */
 	float: left;
 	text-align: center;
-	line-height: 70px;
+	line-height: 58px;
 	font-size: 22px;
-	font-weight: 300
+	font-weight: 300;
 }
 .jd .top .right{
 	width: 273px;
 	height: 26px;
-	/* background-color: green; */
 	margin-top: 20px;
 	float: right;
 }
@@ -783,6 +799,7 @@ nav .container .right .gw:hover{
 	color: #000;
 	margin-right: 36px;
 	cursor: pointer;
+	padding-bottom: 4px;
 }
 .jd .top .right p.zz{
 	color: #ff6700;
@@ -931,7 +948,7 @@ nav .container .right .gw:hover{
 }
 .tj{
 	background: #f7f7f5;
-	padding-top: 22px;
+	padding-top: 8px;
 }
 .tj .top{
 	width: 100%;
@@ -939,9 +956,10 @@ nav .container .right .gw:hover{
 	margin-top: 20px;
 }
 .tj .top .left{
-	font-size: 26px;
+	font-size: 22px;
 	line-height: 58px;
 	float: left;
+	font-weight: 300;
 }
 .tj .top .right{
 	width: 71px;
@@ -1391,7 +1409,9 @@ nav .container .right .gw:hover{
 	width: 100%;
 	text-align: center;
 	font-size: 13px;
-	/* margin-top: 30px; */
+}
+.screen .container .lest ul li a:hover{
+	color: #ff6700;
 }
 .screen .container .lest ul li p{
 	width: 100%;
@@ -1406,20 +1426,20 @@ nav .container .right .gw:hover{
 	background-color: rgba(0,0,0,0.6);
 	display: block;
 	position: relative;
-	top: 10px;
+	top: -35px;
 	border-radius: 24px;
 	left: 12px;
 	border: 2px solid #fff;
 }
 .screen .container .lest ul li:hover .bofang{
 	background-color: #ff6700;
-	border:none;
+	border:2px solid #ff6700;
 }
 .icon-bofang{
 	color: #fff;
 	font-size: 12px;
 	text-align: center;
-	line-height: 24px;
+	line-height: 20px;
 }
 .white{
 	width: 100%;
@@ -1463,6 +1483,9 @@ nav .container .right .gw:hover{
 	text-align: center;
 	color: #616161;
 }
+.dot .container .top ul li a:hover{
+	color: #ff6700;
+}
 .dot .container .top ul li:nth-child(5){
 	border-right:none;
 }
@@ -1495,6 +1518,9 @@ nav .container .right .gw:hover{
 	margin-top: 12px;
 	color: #757575;
 }
+.dot .container .link .left a:hover{
+	color: #ff6700;
+}
 .dot .container .link .right{
 	width: 253px;
 	height: 112px;
@@ -1521,6 +1547,10 @@ nav .container .right .gw:hover{
 	color: #ff6700;
 	margin-left: 66.5px;
 	margin-top: 13px;
+}
+.dot .container .link .right a:hover{
+	background: #ff6700;
+	color: #fff;
 }
 .dot .container .link .right .phone{
 	width: 100%;
@@ -1564,12 +1594,18 @@ nav .container .right .gw:hover{
 	font-size: 11px;
 	color: #000;
 }
+.site-info .container .big-a a:hover{
+	color: #ff6700;
+}
 .site-info .container .big-a p{
 	font-size: 11px;
 	color: #b0b0b0;
 }
 .site-info .container .big-a p .box{
 	color: #b0b0b0;
+}
+.site-info .container .big-a p .box:hover{
+	color: #ff6700;
 }
 .site-info .container img{
 	margin-top: 30px;
